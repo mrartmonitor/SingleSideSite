@@ -1,0 +1,135 @@
+html {
+	font-size: 12px;
+	font-family: sans-serif;
+
+}
+
+abbr {
+	text-decoration: dotted;
+}
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+}
+
+/* only for screen */
+
+@media screen {
+}
+
+/* only for print */
+
+@media print {
+}
+
+body {
+background-color: black;
+
+}
+
+* {
+
+}
+
+
+h1 {
+color: white;
+font-size: 300%;
+font-variant: small-caps;
+font-weight: 900;
+
+position: sticky;
+top: 10px;
+align-self: center;
+align-content: center;
+
+}
+
+h2 {
+color: red;
+
+}
+
+h3 {
+color: yellow;
+
+}
+
+p {
+color: green;
+
+}
+
+.dragon p {
+color: white;
+font-size: 150%;
+font-style: italic;
+}
+
+
+ul {
+  color: orange
+}
+
+li {
+color: teal;
+
+}
+
+.dragon {
+
+background-color: red;
+position: static;
+padding: 8px 12px;
+background-blend-mode: luminosity;
+
+}
+
+.tiger {
+
+background-color: yellow;
+padding: 8px 12px;
+}
+
+.pig {
+background-color: pink;
+padding: 8px 12px;
+
+
+}
+
+.monkey {
+background-color: limegreen;
+padding: 20px 20px;
+
+}
+
+.rat {
+background-color: silver;
+padding: 8px 12px;
+
+}
+
+.ox {
+background-color: orange;
+padding: 8px 12px;
+
+
+}
+
+.style-selector {
+
+background-color: red;
+position: sticky;
+flex: auto;
+padding: 8px 12px;
+
+}
+
+blockquote {
+
+color: brown;
+font-size: 140%
+
+}
